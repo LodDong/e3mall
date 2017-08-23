@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration >
+
+<!-- 起别名  映射的实体类的上的包  这样的话  别名就为User 或者 user -->
+	<typeAliases>
+	<package name="com.itheima.e3mall.pojo"/>
+	</typeAliases>
+
+</configuration>
